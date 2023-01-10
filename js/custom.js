@@ -6,12 +6,6 @@ var typed = new Typed(".auto-type",
 	loop: true
 	})
 
-// PRELOADER
-
-$(window).load(function(){
-    $('.preloader').delay(300).fadeOut("fast"); // set duration in brackets    
-});
-
 // HOME BACKGROUND SLIDESHOW
 $(function(){
     jQuery(document).ready(function() {
